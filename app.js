@@ -1,4 +1,4 @@
-// //MESSEGE
+// // //MESSEGE
 // let messege = " javascript ";
 
 // //INDEX OF
@@ -37,7 +37,7 @@
 // let trm = messege.trim();
 // console.log(trm);
 
-// //SPLIT
+//SPLIT
 // let spt = messege.split(" ");
 // console.log(spt);
 
@@ -418,7 +418,7 @@
 
 //FOOOOOOR
 //global
-let n = prompt(`soni kiriting`);
+// let n = prompt(`soni kiriting`);
 
 //for1
 // for (let i = 0; i < n; i++) {
@@ -470,20 +470,227 @@ let n = prompt(`soni kiriting`);
 // }
 // alert(`${n}ni ${sum} boluvchilarning yeg'indisi`);
 
+// //for8
+// let counter = 0;
+// let allCouunter = 0;
+// for (let i = 1; i <= n; i++) {
+//   for (let k = 1; k <= i; k++) {
+//     if (i % k == 0) {
+//       counter++;
+//     }
+//   }
+//   if (counter == 2) {
+//     allCouunter++;
+//   }
+//   k = 1;
+//   i = i + 1;
+//   counter = 0;
+// }
+// alert(`0dan ${n}gacha ${allCouunter}ta tub son mavjud`);
+
+//work
+// let n = Number(prompt(`soni kiriting`));
+// let sum = Number(1);
+// for (let i = 1; i < 10; i++) {
+//   sum++;
+//   console.log(`${sum} * ${n} = ${sum * n}`);
+// }
+
+// let text = "Lorem, ipsum dolor sit amet consectetur adipisicing elit.";
+
+// let counter = text.indexOf("a");
+// if (counter > 0) {
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+// let n1 = Number(prompt(`1-sonni kiriting`));
+// let n2 = Number(prompt(`2-soni kiriting`));
+// let belgi = Number(prompt(`belgini kirgizing kiriting`));
+// if (belgi == `+`) {
+//   alert(n1 + n2);
+// } else if (belgi == `-`) {
+//   alert(n1 - n2);
+// } else if (belgi == `/`) {
+//   alert(n1 / n2);
+// } else if (belgi == `*`) {
+//   alert(n1 * n2);
+// }
+
+// let text = "Lorem,!!!um dolor sit amet co!nsectetur a!dipisicing elit.";
+
+// let counter = text.indexOf("!");
+// text;
+
+//HOMEWORK
+
+//for1
+// let k = prompt(`kni kirgizing`);
+// let n = prompt(`Sonni kirgizing`);
+// let i = 0;
+// for (i = 0; i < k; i++) {
+//   console.log(n);
+// }
+// alert(`press f 12`);
+
+// //for2
+// let n1 = Number(prompt(`1-sonni kirgizing`));
+// let n2 = Number(prompt(`2-sonni kirgizing`));
+// let a = 0;
+// let b = 0;
+// if (n1 < n2) {
+//   a = n2;
+// } else {
+//   a = n1;
+// }
+// if (n1 < n2) {
+//   b = n2;
+// } else {
+//   b = n1;
+// }
+// for (let i = a; i < b; i++) {
+//   console.log(i);
+// }
+// console.log(b);
+
+//for3
+// let n1 = Number(prompt(`1-sonni kirgizing`));
+// let n2 = Number(prompt(`2-sonni kirgizing`));
+// let a = 0;
+// let b = 0;
+// if (n1 < n2) {
+//   a = n2;
+// } else {
+//   a = n1;
+// }
+// if (n1 < n2) {
+//   b = n2;
+// } else {
+//   b = n1;
+// }
+// for (let i = b; i > a; i--) {
+//   console.log(i);
+// }
+// console.log(a);
+
+//for4
+// let price = prompt("kitkatni narxini kiriting");
+// let total = 0;
+// for (let i = 1; i <= 10; i++) {
+//   total = i * price;
+//   console.log(`${i}kg = ${total}sum`);
+// }
+
+//for5
+// let price = prompt("kitkatni narxini kiriting");
+// let total = 0;
+// for (let i = 1; i <= 10; i++) {
+//   total = (i * price) / 10;
+//   console.log(`${i / 10}kg = ${total}sum`);
+// }
+
+//for6
+// let n = Number(prompt(`kitkatni narxini kirting`));
+// let s = n / 10;
+// for (let i = 1; i < n; i++) {
+//   console.log((n + s) % n);
+//   s++;
+// }
+
+//for7
+// let n1 = Number(prompt(`1-sonni kirirting`));
+// let n2 = Number(prompt(`2-sonni kirirting`));
+// let sum = n1;
+// let s = 0;
+// let a;
+// let b;
+// if (n1 > n2) {
+//   a = n1;
+// } else {
+//   a = n2;
+// }
+// if (n1 < n2) {
+//   b = n1;
+// } else {
+//   b = n2;
+// }
+// for (let i = b; i < a; i++) {
+//   sum++;
+//   s = s + sum;
+// }
+// alert(s);
+// console.log(`${s}`);
+
 //for8
-let counter = 0;
-let allCouunter = 0;
-for (let i = 1; i <= n; i++) {
-  for (let k = 1; k <= i; k++) {
-    if (i % k == 0) {
-      counter++;
-    }
-  }
-  if (counter == 2) {
-    allCouunter++;
-  }
-  k = 1;
-  i = i + 1;
-  counter = 0;
-}
-alert(`0dan ${n}gacha ${allCouunter}ta tub son mavjud`);
+// let n1 = Number(prompt(`1-sonni kirirting`));
+// let n2 = Number(prompt(`2-sonni kirirting`));
+// let sum = n1;
+// let s = 0;
+// let a;
+// let b;
+
+// if (n1 > n2) {
+//   a = n1;
+// } else {
+//   a = n2;
+// }
+// if (n1 < n2) {
+//   b = n1;
+// } else {
+//   b = n2;
+// }
+// let sum2 = b;
+// for (let i = b; i < a; i++) {
+//   sum++;
+//   s = sum2 * sum;
+// }
+// alert(s);
+// console.log(`${s}`);
+
+//for9
+// let n1 = Number(prompt(`1-sonni kirirting`));
+// let n2 = Number(prompt(`2-sonni kirirting`));
+
+// let a;
+// let b;
+// if (n1 > n2) {
+//   a = n1;
+// } else {
+//   a = n2;
+// }
+// if (n1 < n2) {
+//   b = n1;
+// } else {
+//   b = n2;
+// }
+// let sum = a;
+// for (let i = b; i < a; i++) {
+//   sum = sum + i ** 2;
+// }
+// alert(sum);
+// console.log(`${sum}`);
+
+//for10
+// let n = prompt(`sonni kiritting`);
+// let sum = 0;
+// for (i = 1; i <= n; i++) {
+//   sum += 1 / i;
+// }
+// console.log(`yig'indi: ${sum}`);
+
+//for11
+// let n = prompt(`sonni kiritting`);
+// let sum = 0;
+// for (i = n; i <= n * 2; i++) {
+//   sum += i * i;
+//   console.log(i * i);
+// }
+// console.log(`yig'indi: ${sum}`);
+
+//for12
+// let n = prompt(`sonni kiritting`);
+// let sum = 1;
+// for (i = 1; i <= n; i++) {
+//   sum *= i / 10 + 1;
+// }
+// console.log(`ko'paytma: ${sum.toFixed(3)}`);
