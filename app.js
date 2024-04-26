@@ -694,3 +694,567 @@
 //   sum *= i / 10 + 1;
 // }
 // console.log(`ko'paytma: ${sum.toFixed(3)}`);
+// function sum(n1, n2, i) {}
+
+// sum(
+//   (n1 = prompt(`birinchi soni kiriting`))(
+//     (n2 = prompt(`ikkkinchi soni kiriting`))
+//   )((i = prompt(`ishorani kiriting`)))
+// );
+// let a;
+// let b;
+// if (n1 > n2) {
+//   a = n1;
+// } else {
+//   a = n2;
+// }
+// if (n1 < n2) {
+//   b = n1;
+// } else {
+//   b = n2;
+// }
+
+// if ((i = `+`)) {
+//   console.log(a + b);
+// } else if ((i = `-`)) {
+//   console.log(a - b);
+// } else if ((i = `/`)) {
+//   console.log(a / b);
+// } else if ((i = `*`)) {
+//   console.log(a * b);
+// }
+
+//HOMEWORK
+
+// 1
+
+// let i = prompt(`ishorani kiriting`);
+// function sum(x, y) {
+//   if ((i = "+")) {
+//     console.log(x + y);
+//   } else if ((i = "-")) {
+//     console.log(x - y);
+//   }
+// }
+
+// sum(5, 7);
+// sum(8, 9);
+// sum(-9, -7);
+
+// 2
+
+// function sum(x) {
+//   console.log(x * 60);
+// }
+// sum(7);
+
+// 3
+
+// function sum(x) {
+//   console.log(x + 1);
+// }
+
+// sum(9);
+// sum(7);
+
+//4
+
+// function sum(x, y) {
+//   console.log((x * y) / 2);
+// }
+// sum(3, 2);
+
+// 5
+
+// function sum(x) {
+//   console.log(x * 365);
+// }
+
+// sum(65);
+
+// 6
+
+// function sum(x) {
+//   console.log(x ** 3);
+// }
+
+// sum(9);
+
+// 7
+
+// function sum(x, y, z) {
+//   console.log(x);
+// }
+
+// sum(7, 8, 9);
+
+// 8
+
+// function sum(x, y) {
+//   console.log(x * y);
+// }
+
+// sum(7, 8);
+
+// 9
+
+// function sum(x) {
+//   console.log(x * 60 * 60);
+// }
+
+// sum(2);
+
+// 10
+
+// function sum(x, y) {
+//   console.log(x + y - 1);
+// }
+
+// sum(2, 3);
+
+// 11
+
+// function sum(x, y) {
+//   if (x == y) {
+//     console.log(0);
+//   } else {
+//     console.log(x);
+//   }
+// }
+
+// sum(7, 8);
+// sum(9, 9);
+
+// 12
+
+// function sum(x, y) {
+//   console.log((x + y) * 2);
+// }
+
+// sum(20, 10);
+
+// 13
+
+// function sum(x) {
+//   console.log("something " + x);
+// }
+
+// sum("is wrong?");
+
+// 14
+
+// function sum(x) {
+//   console.log(x ** 2);
+// }
+
+// sum(10);
+
+// 15
+
+// function sum(x) {
+//   if (x > 0) {
+//     console.log(false);
+//   } else {
+//     console.log(true);
+//   }
+// }
+
+// sum(-8);
+// sum(0);
+// sum(8);
+
+// 16
+
+// function sum(x) {
+//   console.log((x - 2) * 180);
+// }
+
+// sum(3);
+
+//with return :)
+
+//not console.log
+
+// 17
+
+// function sum(x, y) {
+//   return x * 2 + y * 3;
+// }
+// console.log(sum(1, 1));
+
+// 18
+
+// const addString = (a) => {
+//   return `${a}Edabit`;
+// };
+// console.log(addString("Teacher"));
+
+// 19
+
+// const biggerThanHundred = function (a, b) {
+//   if (a + b < 100) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
+// biggerThanHundred(34, 45);
+// biggerThanHundred(34, 75);
+
+// 20
+
+// let newArray = [];
+// function array(n) {
+//   for (i = 1; i <= n; i++) {
+//     newArray.push(i);
+//   }
+// }
+// array(20);
+// console.log(newArray);
+
+// 21
+
+// function countLegs(tovuq, qoy, mol) {
+//   return tovuq * 2 + qoy * 4 + mol * 4;
+// }
+// console.log(countLegs(2, 3, 5));
+
+// 22
+
+// function bool(a, b) {
+//   if (a == true && b == false) {
+//     console.log(false);
+//   } else if (a == true && b == true) {
+//     console.log(true);
+//   } else if (a == false && b == true) {
+//     console.log(false);
+//   } else if (a == false && b == false) {
+//     console.log(false);
+//   }
+// }
+// bool(true, false);
+// bool(true, true);
+
+// 23
+
+// function isEqual(a, b) {
+//   if (a === b) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isEqual(4, 4);
+// isEqual(4, 8);
+
+// 24
+
+// function points(win, draw, lost) {
+//   return win * 3 + draw * 1;
+// }
+
+// console.log(points(6, 2, 3));
+
+// 25
+
+// function secunds(h, m) {
+//   return h * 3600 + m * 60;
+// }
+
+// console.log(secunds(1, 2));
+
+// 26
+
+// function fun(n) {
+//   if (n === 7) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// fun(4);
+// fun(7);
+// fun(9);
+
+// 27
+
+// function isEqual(a, b) {
+//   if (a === b) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isEqual(1, 1);
+// isEqual(1, "1");
+
+// 28
+
+// function funToString(bool) {
+//   return String(bool);
+// }
+// console.log(funToString(true));
+// console.log(typeof funToString(true));
+
+// 29
+
+// const arrowFunction = (v) => {
+//   return v;
+// };
+// console.log(arrowFunction(3));
+// console.log(arrowFunction("3"));
+// console.log(arrowFunction(true));
+
+// 30
+
+// const numberOfFrame = (minute, frame) => {
+//   return minute * 60 * frame;
+// };
+// console.log(numberOfFrame(1, 1));
+// console.log(numberOfFrame(10, 1));
+// console.log(numberOfFrame(10, 25));
+
+// 31
+
+// function evaluateExpression(expression) {
+//   let operands = expression.split(/[\+\-\*\/]/);
+//   let operator = expression.match(/[\+\-\*\/]/)[0];
+
+//   let operand1 = parseInt(operands[0]);
+//   let operand2 = parseInt(operands[1]);
+//   let result;
+//   switch (operator) {
+//     case "+":
+//       result = operand1 + operand2;
+//       break;
+//     case "-":
+//       result = operand1 - operand2;
+//       break;
+//     case "*":
+//       result = operand1 * operand2;
+//       break;
+//     case "/":
+//       if (operand2 !== 0) {
+//         result = operand1 / operand2;
+//       } else {
+//         return "Division by zero";
+//       }
+//       break;
+//     default:
+//       return "Invalid operator";
+//   }
+
+//   return result;
+// }
+// console.log(evaluateExpression("2+5"));
+// console.log(evaluateExpression("10-3"));
+// console.log(evaluateExpression("3*4"));
+// console.log(evaluateExpression("20/5"));
+
+// 32
+
+// function isEqual(a, b) {
+//   if (a == 10 || b == 10 || a + b == 10) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isEqual(10, 9);
+// isEqual(6, 10);
+// isEqual(1, 2);
+// isEqual(1, 9);
+
+// 33
+// let fuel;
+// function fuelNeeded(distance) {
+//   if (distance > 10) {
+//     fuel = distance * 10;
+//     console.log(`${fuel} litr yoqilg'li bilan yo'lga chiqadi`);
+//   } else {
+//     console.log("100 litr yoqilgi bilan yolga chiqadi");
+//   }
+// }
+// fuelNeeded(23.5);
+// fuelNeeded(15);
+// fuelNeeded(3);
+
+// 34
+
+// function biggerOne(a, b) {
+//   return Math.max(a, b);
+// }
+// console.log(biggerOne(23, 56));
+// console.log(biggerOne(23, -56));
+// console.log(biggerOne(1, 1));
+
+// 35
+
+// function changeToArray(a, b) {
+//   return [a, b];
+// }
+// console.log(changeToArray(1, 2));
+// console.log(changeToArray(164556, 28));
+// console.log(changeToArray("Hello", "World"));
+
+// 36
+
+// function isEqual(a, b) {
+//   if (a.toString().length === b.toString().length) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+
+// isEqual("ab", "cd");
+// isEqual("ab", "cde");
+// isEqual(2, 3);
+// isEqual(2, 34);
+
+// 37
+
+// const emptyString = (a) => {
+//   if (a.toString().length == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
+// emptyString("");
+// emptyString(" ");
+// emptyString("a");
+
+// 38
+
+// function isDevider(n) {
+//   if (n % 5 == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isDevider(5);
+// isDevider(55);
+// isDevider(14);
+
+// 39
+
+// function isDevider(n) {
+//   if (n % 100 == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isDevider(5);
+// isDevider(5500);
+// isDevider(200);
+
+// 40
+
+// function countCharacters(str) {
+//   if (str === "") {
+//     return 0;
+//   } else {
+//     return 1 + countCharacters(str.slice(1));
+//   }
+// }
+// console.log(countCharacters("Hello World"));
+// console.log(countCharacters("apple"));
+// console.log(countCharacters(""));
+
+// 41
+
+// function isDevider(a, b) {
+//   if (a % b == 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+// isDevider(144, 12);
+// isDevider(45, 13);
+// isDevider(200, 10);
+
+// 42
+
+// function changeToNumber(a) {
+//   return +a;
+// }
+// console.log(changeToNumber("1"));
+// console.log(changeToNumber("354"));
+// console.log(changeToNumber(7));
+
+// 43
+
+// function areaOfrectangle(a, b) {
+//   if (a > 0 && b > 0) {
+//     return a * b;
+//   } else {
+//     return -1;
+//   }
+// }
+// console.log(areaOfrectangle(3, 4));
+// console.log(areaOfrectangle(-3, 4));
+
+// 44
+
+// function addString(a, b) {
+//   return a + ", " + b;
+// }
+// console.log(addString("Hwan", "Lee"));
+// console.log(addString("Hwannn", "Leeeee"));
+
+// 45
+
+// function bug(bool) {
+//   if (bool == true) {
+//     console.log("Sad days");
+//   } else {
+//     console.log("It is a good day!");
+//   }
+// }
+// bug(true);
+// bug(false);
+
+// 46
+
+// function removeElement(array, num) {
+//   for (let i = 1; i <= num; i++) {
+//     array.shift();
+//   }
+//   console.log(array);
+// }
+// removeElement([1, 2, 3], 1);
+// removeElement([1, 2, 3], 3);
+// removeElement([1, 2, 3], 0);
+
+// 47
+
+// let voteCount = {
+//   upvotes: 0,
+//   downvotes: 0,
+// };
+
+// function sumVotes() {
+//   return voteCount.upvotes - voteCount.downvotes;
+// }
+// voteCount.upvotes = 10;
+// voteCount.downvotes = 5;
+// console.log(sumVotes());
+// voteCount.upvotes = 10;
+// voteCount.downvotes = 15;
+// console.log(sumVotes());
+
+// 48
+
+// function negativeOfnumber(n) {
+//   if (n > 0) {
+//     console.log(-n);
+//   } else {
+//     console.log(n);
+//   }
+// }
+// negativeOfnumber(4);
+// negativeOfnumber(-4);
