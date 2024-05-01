@@ -914,10 +914,10 @@
 
 // 21
 
-// function countLegs(tovuq, qoy, mol) {
+// function counterLegs(tovuq, qoy, mol) {
 //   return tovuq * 2 + qoy * 4 + mol * 4;
 // }
-// console.log(countLegs(2, 3, 5));
+// console.log(counterLegs(2, 3, 5));
 
 // 22
 
@@ -1153,16 +1153,16 @@
 
 // 40
 
-// function countCharacters(str) {
+// function counterCharacters(str) {
 //   if (str === "") {
 //     return 0;
 //   } else {
-//     return 1 + countCharacters(str.slice(1));
+//     return 1 + counterCharacters(str.slice(1));
 //   }
 // }
-// console.log(countCharacters("Hello World"));
-// console.log(countCharacters("apple"));
-// console.log(countCharacters(""));
+// console.log(counterCharacters("Hello World"));
+// console.log(counterCharacters("apple"));
+// console.log(counterCharacters(""));
 
 // 41
 
@@ -1232,29 +1232,124 @@
 
 // 47
 
-// let voteCount = {
+// let votecounter = {
 //   upvotes: 0,
 //   downvotes: 0,
 // };
 
 // function sumVotes() {
-//   return voteCount.upvotes - voteCount.downvotes;
+//   return votecounter.upvotes - votecounter.downvotes;
 // }
-// voteCount.upvotes = 10;
-// voteCount.downvotes = 5;
+// votecounter.upvotes = 10;
+// votecounter.downvotes = 5;
 // console.log(sumVotes());
-// voteCount.upvotes = 10;
-// voteCount.downvotes = 15;
+// votecounter.upvotes = 10;
+// votecounter.downvotes = 15;
 // console.log(sumVotes());
 
-// 48
-
-// function negativeOfnumber(n) {
-//   if (n > 0) {
-//     console.log(-n);
-//   } else {
-//     console.log(n);
+// // 48
+// let counter = 0;
+// let sum = 0;
+// let numbers = [4, 5, 7, 8, 6, 9];
+// for (let i = 0; i < numbers.length(); i++) {
+//   if (numbers[i] % 2 == 0) {
+//     counter[sum] = numbers[i];
+//     sum++;
 //   }
 // }
-// negativeOfnumber(4);
-// negativeOfnumber(-4);
+// console.log(counter);
+
+// 1
+
+// let num = [];
+// function getLevel2(n) {
+//   for (i = 1; i <= n; i++) {
+//     num.push(2 ** i);
+//   }
+//   console.log(num);
+// }
+// getLevel2(5);
+
+// 2
+
+// let num = [];
+// function numBuilder(n, a, b) {
+//   for (i = 1; i <= n; i++) {
+//     if (i == 2) {
+//       num.push(a, b);
+//     } else if (i > 2) {
+//       let sum = num.reduce((total, num) => total + num, 0);
+//       num.push(sum);
+//     }
+//   }
+//   console.log(num);
+// }
+// numBuilder(5, 2, 3);
+
+// 3
+
+// let num = [1, 5, 8, 9, 10];
+// function reversednum(num) {
+//   return num.reverse();
+// }
+// console.log(reversednum(num));
+
+// 4
+
+// let num = [1, 5, 8, 9, 3, 10];
+// let numberss = [];
+// let counter = 0;
+// function getOddNums(num) {
+//   num.forEach((element) => {
+//     if (element % 2 == 1) {
+//       counter++;
+//       numberss.push(element);
+//     }
+//   });
+//   console.log(`${numberss}, ${counter} ta toq son bor`);
+// }
+// getOddNums(num);
+
+// 5
+
+// let num = [4, 5, 7, 8, 6, 9];
+// let numberss = [];
+// let numbers = [];
+// function separateOddEvens(num) {
+//   for (i = 0; i < num.length; i++) {
+//     if (num[i] % 2 == 0) {
+//       numberss.push(num[i]);
+//     }
+//   }
+//   for (i = 0; i < num.length; i++) {
+//     if (num[i] % 2 == 1) {
+//       numbers.unshift(num[i]);
+//     }
+//   }
+//   return numberss.concat(numbers);
+// }
+// console.log(separateOddEvens(num));
+
+// 6
+
+// let num = [4, 5, 7, 8, 6, 9, 6, 8, 0, 3];
+// let numberss = [];
+// function printEvenIndex(num) {
+//   for (i = 0; i < num.length / 2; i++) {
+//     numberss.push(num[i * 2]);
+//   }
+//   return numberss;
+// }
+// console.log(printEvenIndex(num));
+
+// 7
+
+// let num = [4, 5, 7, 8, 6, 9, 6, 8, 0, 3];
+// let numberss = [];
+// function printEvenIndex(num) {
+//   for (i = 0; i < num.length / 2; i++) {
+//     numberss.push(num[num.length - 1 - i * 2]);
+//   }
+//   return numberss;
+// }
+// console.log(printEvenIndex(num));
