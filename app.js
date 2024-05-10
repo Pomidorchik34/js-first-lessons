@@ -296,3 +296,130 @@ import products from "./data.js";
 //   return obj;
 // }
 // console.log(getTruthyFalsy(arr));
+
+//
+
+// let apple;
+// let samsung;
+// let infenix;
+
+// const resault = products.reduce((acc, curVal) => {
+//   if (acc[curVal]) {
+//     acc[curVal] = acc[curVal] + 1;
+//   } else {
+//     acc[curVal] = 1;
+//   }
+//   return acc;
+// });
+
+//EXAM
+
+// 1
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.reverse());
+
+// 2
+
+// let a = 1;
+// let b = "1";
+// if (a === b) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+// if (a == b) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+// // ==-qiymatini solishtiradi
+// // ===-data typeini solishtiradi
+
+// 3
+
+// let recusion = 1;
+// function recusive() {
+//   console.log(recusion);
+//   recusive();
+// }
+// recusive();
+
+// 4
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const juft = arr.filter((n) => n % 2 !== 1);
+
+// const toq = arr.filter((n) => n % 2 == 1);
+
+// console.log(`juftlar ${juft}`);
+// console.log(`toqlar ${toq}`);
+
+// 5
+
+// let str = `niiiiiiiiiiiiiiiiga`;
+// function deleted() {
+//   return str.split("").join("");
+// }
+// deleted();
+
+// 6
+
+// let a = [1, 2, 3, 4];
+// let b = [5, 6, 7, 8];
+// let all = a.concat(b);
+// let resault = all.reduce((acc, current) => {
+//   return acc + current;
+// });
+// console.log(resault);
+
+// 7
+
+// let str = `string`;
+// var resault = [];
+// for (let i = 0; i < str.length; i++) {
+//   resault.push(str.at(i));
+// }
+// console.log(resault);
+
+// 8
+
+// let array = [1, 2, 3, 4, 5];
+// function func(arr) {
+//   let reverse = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     reverse.push(arr[i]);
+//   }
+//   return reverse;
+// }
+// console.log(func(array));
+
+// 9
+
+// let str = `1230`;
+// var resault = [];
+// var search = str.search(0);
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] !== str[search]) {
+//     resault.push(str[i]);
+//   }
+// }
+// console.log(resault);
+
+// 10
+
+// let array = [5, 3, 9, 1, 7];
+// function func(array) {
+//   if (array.length === 0) {
+//     return "Array bo'sh";
+//   }
+//   let resault = array[0];
+//   for (let i = 1; i < array.length; i++) {
+//     if (array[i] < resault) {
+//       resault = array[i];
+//     }
+//   }
+//   return (resault ** 4).toString();
+// }
+
+// console.log(func(array));
