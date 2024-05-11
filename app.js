@@ -15,8 +15,8 @@ import products from "./data.js";
 
 //   return oddNumbers;
 // }
-// const result = getInitialOdds(5);
-// console.log(result);
+// var resault = getInitialOdds(5);
+// console.log(resault);
 
 // 2
 // function getEvenReverse(arr) {
@@ -49,14 +49,14 @@ import products from "./data.js";
 // let l = 5;
 
 //   let sum = 0;
-// let result = rangeSum(arr, k, l);
+// let resault = rangeSum(arr, k, l);
 //   for (let i = k; i <= l; i++) {
 //     sum += arr[i];
 //   }
 //   return sum;
 // }
 
-// console.log(result);
+// console.log(resault);
 
 // 6
 
@@ -74,7 +74,7 @@ import products from "./data.js";
 // console.log("Juft indexdagi elementlar:", indexes(massiv));
 
 // 7
-// function arrayRight(arr) {
+// function arrRight(arr) {
 //   if (arr.length <= 1) return arr;
 //   let temp = arr[0];
 //   for (let i = 0; i < arr.length - 1; i++) {
@@ -84,8 +84,8 @@ import products from "./data.js";
 //   return arr;
 // }
 
-// const son = [1, 5, 8, 9, 10];
-// const son2 = arrayRight(son);
+// var son = [1, 5, 8, 9, 10];
+// var son2 = arrRight(son);
 // console.log(son2);
 
 //
@@ -96,7 +96,7 @@ import products from "./data.js";
 
 // 1
 
-// const students = [
+// var students = [
 //   { name: "Quincy", percent: 96 },
 //   { name: "Jason", percent: 84 },
 //   { name: "Alexis", percent: 100 },
@@ -123,7 +123,7 @@ import products from "./data.js";
 
 // 2
 
-// const animals = [
+// var animals = [
 //   "dog",
 //   "chicken",
 //   "cat",
@@ -144,7 +144,7 @@ import products from "./data.js";
 
 //
 
-// const animals = [
+// var animals = [
 //   "dog",
 //   "chicken",
 //   "cat",
@@ -153,7 +153,7 @@ import products from "./data.js";
 //   "chicken",
 //   "rabbit",
 // ];
-// const wordCount = animals.reduce((countObj, animal) => {
+// var wordCount = animals.reduce((countObj, animal) => {
 //   if (!countObj[animal]) {
 //     countObj[animal] = 1;
 //   } else {
@@ -166,18 +166,18 @@ import products from "./data.js";
 // 3
 
 // let arr = [1, 2, 3, 4, 5];
-// let newArr = arr.map((el) => el ** 2);
-// console.log(newArr);
+// let Array = arr.map((el) => el ** 2);
+// console.log(Array);
 
 // 4
 
 // let arr = [1, -4, 12, 0, -3, 29, -150];
-// let newArr = arr
+// let Array = arr
 //   .filter((num) => num > 0)
 //   .reduce((acc, curVal) => {
 //     return acc + curVal;
 //   });
-// console.log(newArr);
+// console.log(Array);
 
 // 5
 
@@ -258,12 +258,12 @@ import products from "./data.js";
 
 // 13
 
-// const nameOfProducts = products.map((product) => product.title);
+// var nameOfProducts = products.map((product) => product.title);
 // console.log(nameOfProducts);
 
 // 14
 
-// const nameOfProduct = products.find((product) => product.id == 5);
+// var nameOfProduct = products.find((product) => product.id == 5);
 // console.log(nameOfProduct.title);
 
 // 15
@@ -274,14 +274,14 @@ import products from "./data.js";
 // 16
 
 // function isOnlyLetters(str) {
-//   const lowercaseRange = "abcdefghijklmnopqrstuvwxyz";
-//   const uppercaseRange = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//   const letters = str.split("");
+//   var lowercaseRange = "abcdefghijklmnopqrstuvwxyz";
+//   var uppercaseRange = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//   var letters = str.split("");
 //   return letters.every(
 //     (char) => lowercaseRange.includes(char) || uppercaseRange.includes(char)
 //   );
 // }
-// const text1 = "HelloWorld";
+// var text1 = "HelloWorld";
 // console.log(isOnlyLetters(text1));
 
 // 17
@@ -303,7 +303,7 @@ import products from "./data.js";
 // let samsung;
 // let infenix;
 
-// const resault = products.reduce((acc, curVal) => {
+// var resault = products.reduce((acc, curVal) => {
 //   if (acc[curVal]) {
 //     acc[curVal] = acc[curVal] + 1;
 //   } else {
@@ -348,9 +348,9 @@ import products from "./data.js";
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// const juft = arr.filter((n) => n % 2 !== 1);
+// var juft = arr.filter((n) => n % 2 !== 1);
 
-// const toq = arr.filter((n) => n % 2 == 1);
+// var toq = arr.filter((n) => n % 2 == 1);
 
 // console.log(`juftlar ${juft}`);
 // console.log(`toqlar ${toq}`);
@@ -384,7 +384,7 @@ import products from "./data.js";
 
 // 8
 
-// let array = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 // function func(arr) {
 //   let reverse = [];
 //   for (let i = arr.length - 1; i >= 0; i--) {
@@ -392,7 +392,7 @@ import products from "./data.js";
 //   }
 //   return reverse;
 // }
-// console.log(func(array));
+// console.log(func(arr));
 
 // 9
 
@@ -408,21 +408,21 @@ import products from "./data.js";
 
 // 10
 
-// let array = [5, 3, 9, 1, 7];
-// function func(array) {
-//   if (array.length === 0) {
-//     return "Array bo'sh";
+// let arr = [5, 3, 9, 1, 7];
+// function func(arr) {
+//   if (arr.length === 0) {
+//     return "arr bo'sh";
 //   }
-//   let resault = array[0];
-//   for (let i = 1; i < array.length; i++) {
-//     if (array[i] < resault) {
-//       resault = array[i];
+//   let resault = arr[0];
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < resault) {
+//       resault = arr[i];
 //     }
 //   }
 //   return (resault ** 4).toString();
 // }
 
-// console.log(func(array));
+// console.log(func(arr));
 
 // 1
 // let arr = [1, 2, 3];
@@ -463,9 +463,9 @@ import products from "./data.js";
 
 // 6
 // let arr = [1, 3, 5, 7];
-// let array = [2, 4, 6, 8];
-// let allArray = arr.concat(array);
-// let resault = allArray.reduce((acc, current) => {
+// let arr = [2, 4, 6, 8];
+// let allarr = arr.concat(arr);
+// let resault = allarr.reduce((acc, current) => {
 //   return acc + current;
 // }, 0);
 // console.log(resault);
@@ -476,10 +476,10 @@ import products from "./data.js";
 
 // 8
 // function func() {
-//   let array = [1, 2, 3, 4, 5];
+//   let arr = [1, 2, 3, 4, 5];
 //   let reverse = [];
-//   for (let i = array.length - 1; i >= 0; i--) {
-//     reverse.push(array[i]);
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     reverse.push(arr[i]);
 //   }
 //   return reverse;
 // }
@@ -496,19 +496,162 @@ import products from "./data.js";
 // }
 // console.log(resault);
 
-// 10
-// let array = [5, 3, 9, 2, 7];
-// function func(array) {
-//   if (array.length === 0) {
-//     return "Array bo'sh";
+// 10;
+// let arr = [5, 3, 9, 2, 7];
+// function func(arr) {
+//   if (arr.length === 0) {
+//     return "arr bo'sh";
 //   }
-//   let resault = array[0];
-//   for (let i = 1; i < array.length; i++) {
-//     if (array[i] < resault) {
-//       resault = array[i];
+//   let resault = arr[0];
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < resault) {
+//       resault = arr[i];
 //     }
 //   }
 //   return (resault ** 4).toString();
 // }
 
-// console.log(func(array));
+// console.log(func(arr));
+
+// 1
+// let str = `to be or not to be`;
+// console.log(str.split(`not`).join());
+
+// 2
+// let str = `<div>`;
+// var search = str.search(`<`);
+// var search1 = str.search(`>`);
+// var resault = [];
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] !== str[search] && str[i] !== str[search1]) {
+//     resault.push(str[i]);
+//   }
+// }
+// console.log(resault);
+
+// 3
+// let n = Number(4);
+// if (n % 2 !== 1) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 4
+// function group(arr, key, value) {
+//   var resault = {};
+//   arr.forEach((item) => {
+//     var key = key(item);
+//     var value = value(item);
+//     if (resault[key]) {
+//       resault[key].push(value);
+//     } else {
+//       resault[key] = [value];
+//     }
+//   });
+//   return resault;
+// }
+// var data = [
+//   { country: "Belarus", city: "Brest" },
+//   { country: "Russia", city: "Omsk" },
+//   { country: "Russia", city: "Samara" },
+//   { country: "Belarus", city: "Grodno" },
+//   { country: "Belarus", city: "Minsk" },
+//   { country: "Poland", city: "Lodz" },
+// ];
+
+// var resault = group(
+//   data,
+//   (item) => item.country.toLowerCase(),
+//   (item) => item.city
+// );
+// console.log(resault);
+
+// 5
+// var n1 = 5;
+// var n2 = 10;
+// var index;
+// var index1;
+// if (n1 < n2) {
+//   index = n2;
+//   index1 = n1;
+// } else {
+//   index = n1;
+//   index1 = n2;
+// }
+// var resault = 0;
+// for (let i = 0; i < index; i++) {
+//   resault = resault + i;
+// }
+// console.log(resault);
+
+// 6
+// var arr = [1, 5, 6, 1, 5, 7, 2];
+// function func(arr) {
+//   var elements = new Set();
+//   arr.forEach((element) => {
+//     if (!elements.has(element)) {
+//       elements.add(element);
+//     }
+//   });
+//   return Array.from(elements);
+// }
+// console.log(func(arr));
+
+// 7
+// var arr = [1, 2, 3, 2, 4, 5, 1, 6, 7, 8, 9, 1];
+// function func(arr) {
+//   var elements2 = new Set();
+//   var elements = [];
+//   arr.forEach((element) => {
+//     if (!elements2.has(element)) {
+//       elements2.add(element);
+//       elements.push(element);
+//     }
+//   });
+//   return elements;
+// }
+// var resault = func(arr);
+// console.log(resault);
+
+// 8
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// var k = 2;
+// var m = 5;
+// function func(arr, k, m) {
+//   var Array = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i < k || i > m) {
+//       Array.push(arr[i]);
+//     }
+//   }
+//   return Array;
+// }
+// var resault = func(arr, k, m);
+// console.log(resault);
+// console.log(resault.length);
+
+// 9
+const books = [
+  {
+    title: "Halqa",
+    author: "Akrom Malik",
+    alreadyRead: false,
+  },
+  {
+    title: "Dunyo ishlari",
+    author: "O'tkir Hoshimov",
+    alreadyRead: true,
+  },
+  {
+    title: "Vaqtning qadri",
+    author: "Abdulfattoh Abu G'udda",
+    alreadyRead: false,
+  },
+];
+var resault = 0;
+for (let i = 0; i < books.length; i++) {
+  if (books[i].alreadyRead == true) {
+    resault.push();
+  }
+}
