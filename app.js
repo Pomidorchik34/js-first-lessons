@@ -423,3 +423,92 @@ import products from "./data.js";
 // }
 
 // console.log(func(array));
+
+// 1
+// let arr = [1, 2, 3];
+// console.log(arr.reverse());
+
+// 2
+// let n = 1;
+// let str = `1`;
+// // == qiymatini hisoblaydi
+// if (n == str) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+// // === data typini hisoblaydi
+// if (n === str) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+// 3
+// function func(recursive) {
+//   console.log(`recursive`);
+//   func();
+// }
+// func();
+
+// 4
+// let arr = [1, 2, 3, 4];
+// let resault1 = arr.filter((n) => n % 2 !== 1);
+// let resault2 = arr.filter((n) => n % 2 == 1);
+// console.log(resault1, resault2);
+
+// 5
+// let str = `str`;
+// console.log(str.slice(0, 0));
+
+// 6
+// let arr = [1, 3, 5, 7];
+// let array = [2, 4, 6, 8];
+// let allArray = arr.concat(array);
+// let resault = allArray.reduce((acc, current) => {
+//   return acc + current;
+// }, 0);
+// console.log(resault);
+
+// 7
+// let str = `str`;
+// console.log(str.split(0, 0));
+
+// 8
+// function func() {
+//   let array = [1, 2, 3, 4, 5];
+//   let reverse = [];
+//   for (let i = array.length - 1; i >= 0; i--) {
+//     reverse.push(array[i]);
+//   }
+//   return reverse;
+// }
+// console.log(func());
+
+// 9
+// let str = `1230`;
+// var search = str.search(0);
+// var resault = [];
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] !== str[search]) {
+//     resault.push(str[i]);
+//   }
+// }
+// console.log(resault);
+
+// 10
+// let array = [5, 3, 9, 2, 7];
+// function func(array) {
+//   if (array.length === 0) {
+//     return "Array bo'sh";
+//   }
+//   let resault = array[0];
+//   for (let i = 1; i < array.length; i++) {
+//     if (array[i] < resault) {
+//       resault = array[i];
+//     }
+//   }
+//   return (resault ** 4).toString();
+// }
+
+// console.log(func(array));
